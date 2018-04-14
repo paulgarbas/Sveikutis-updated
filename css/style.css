@@ -349,8 +349,8 @@ font header .navbar-default .navbar-nav li a:hover {
 
 /* Modals */
 .description-modal table {
-  /* table-layout: fixed; */
-  /* width: 100%; */
+  table-layout: fixed;
+  width: 100%;
   border-collapse: collapse;
 }
 .description-modal table, .description-modal th, .description-modal td {
@@ -366,16 +366,21 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #000;
   text-align: left;
   padding: 8px;
+  width: 80%;
 }
 .description-modal .margin-top {
   margin-top: 4px;
 }
 .description-modal ul {
   list-style: square;
-  list-style-position: inside;
+  list-style-position: outside;
+  padding-left: 16px;
 }
 .description-modal .fa-phone, .description-modal .fa-envelope {
   margin-right: 5px;
+}
+.vocal-important {
+  color: #ffa500;
 }
 /* end of modals */
 #service {

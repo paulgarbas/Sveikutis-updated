@@ -1,98 +1,3 @@
-<!DOCTYPE html>
-<html class="no-js">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>SVEIKUTIS - Susisiekite su mumis!</title>
-    <meta name="description" content="Parašykite, paskambinkite ar atvykite į SVEIKUTĮ, kur inovatyviais metodais grindžiama originali programa muzikuoja būsimi tėvai, kūdikiai ir vaikai iki 3 metų.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/ionicons.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    
-    <!-- Js -->
-    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/min/waypoints.min.js"></script>
-    <script src="js/jquery.counterup.js"></script>
-
-    <!-- Google Map -->
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script src="js/google-map-init.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCiyL_0jSw3-vc0atLtKCyAD0wsMccEgw&callback=initMap"
-  type="text/javascript"></script>
-
-
-    <script src="js/main.js"></script>
-
-
-  </head>
-  <body>
-    <!-- Header Start -->
-    <header>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <!-- header Nav Start -->
-            <nav class="navbar navbar-default">
-              <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                  <span class="sr-only">Meniu</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  </button>
-<!--                  <a class="navbar-brand" href="index.html">
-                    <img src="img/logo.png" alt="Logo">
-                  </a> --!>
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                  <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">Pradžia</a></li>
-                    <li><a class="page-scroll" href="index.html#intro">Apie mus</a></li>
-                    <li><a class="page-scroll" href="index.html#feature">Mokytoja</a></li>
-                    <li><a class="page-scroll" href="index.html#service">Tvarkaraštis</a></li>                    
-<!--                    <li><a href="work.html">Work</a></li> -->
-                    <li><a class="page-scroll" href="work.html">Šeimos knyga</a></li>
-                    <li><a class="page-scroll" href="index.html#testimonial">Atsiliepimai</a></li>                    
-                    <li><a href="contact.html">Kontaktai</a></li>
-                </ul>
-                </div><!-- /.navbar-collapse -->
-                </div><!-- /.container-fluid -->
-              </nav>
-            </div>
-          </div>
-        </div>
-        </header><!-- header close -->
-        
-        <!-- Slider Start -->
-        <section id="global-header">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="block">
-                  <h1>SUSISIEKITE SU MUMIS</h1>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- contact form start -->
-
 <?php
 // define variables and set to empty values
 $nameErr =  "Jūsų vardas";
@@ -155,6 +60,110 @@ function test_input($data) {
 }
 ?>
 
+<!DOCTYPE html>
+<html lang="lt" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SVEIKUTIS - Susisiekite su mumis!</title>
+    <meta name="description" content="Parašykite, paskambinkite ar atvykite į SVEIKUTĮ, kur inovatyviais metodais grindžiama originali programa muzikuoja būsimi tėvai, kūdikiai ir vaikai iki 3 metų.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    
+    <!-- CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Volkhov:400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400i" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Js -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous">
+    </script>
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/min/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.js"></script>
+
+    <!-- Google Map -->
+    <!-- <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="js/google-map-init.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCiyL_0jSw3-vc0atLtKCyAD0wsMccEgw&callback=initMap"
+  type="text/javascript"></script> -->
+
+
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <!-- header Nav Start -->
+            <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Meniu</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  </button>
+<!--                  <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" alt="Logo">
+                  </a> --!>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Pradžia</a></li>
+                    <li><a class="page-scroll" href="index.html#intro">Apie mus</a></li>
+                    <li><a class="page-scroll" href="index.html#feature">Mokytoja</a></li>
+                    <li><a class="page-scroll" href="index.html#service">Tvarkaraštis</a></li>                    
+<!--                    <li><a href="work.html">Work</a></li> -->
+                    <li><a class="page-scroll" href="work.html">Šeimos knyga</a></li>
+                    <li><a class="page-scroll" href="index.html#testimonial">Atsiliepimai</a></li>                    
+                    <li><a href="contact.html">Kontaktai</a></li>
+                </ul>
+                </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+              </nav>
+            </div>
+          </div>
+        </div>
+        </header><!-- header close -->
+        
+        <!-- Slider Start -->
+        <section id="global-header">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="block">
+                  <h1>SUSISIEKITE SU MUMIS</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- contact form start -->
+
+
+
         <section id="contact-form">
           <div class="container">
             <div class="row">
@@ -186,7 +195,7 @@ function test_input($data) {
               <div class="col-md-6 col-sm-12">
                 <div class="block">
                   <h2>Susisiekite su mumis</h2>
-                  <ul class="address-block">
+                  <!-- <ul class="address-block">
                     <li>
                       <i class="fa fa-map-marker"></i>Vytenio g. 50, 14B korpusas, Vilnius
                     </li>
@@ -196,11 +205,63 @@ function test_input($data) {
                     <li>
                       <i class="fa fa-phone"></i>+370 659 33041
                     </li>
+                  </ul> -->
+                  <ul class="lectures-contact">
+                    <li><a href="">Nėščiųjų muzikinis ugdomasis sveikatinimas</a> 
+                      <div><i class="fas fa-phone"></i>+370 659 33041</div>
+                    </li>
+                    <li><a href="">„Mažutukų dainos”. Ankstyvasis muzikinis ugdomasis sveikatinimas</a> 
+                      <div><i class="fas fa-phone"></i>+370 659 33041, +370 620 20870</div>
+                    </li>
+                    <li><a href="">„Taputukų dainos”. Ankstyvasis muzikinis ugdomasis sveikatinimas</a> 
+                      <div><i class="fas fa-phone"></i>+370 659 33041, +370 620 20870</div>
+                    </li>
+                    <li><a href="">Ansamblinis muzikavimas Karlo Orfo instrumentariumu 4-6 metų vaikams</a> 
+                      <div><i class="fas fa-phone"></i>+370 620 20870</div>
+                    </li>
+                    <li><a href="">Ansamblinis muzikavimas Karlo Orfo instrumentariumu 6-8 metų vaikams</a> 
+                      <div><i class="fas fa-phone"></i>+370 620 20870</div>
+                    </li>
+                    <li><a href="">Pianino pamokos suaugusiems</a> 
+                      <div><i class="fas fa-phone"></i>+370 603 81702</div>
+                    </li>
+                    <li><a href="">Vokalo pamokos suaugusiems ir vaikams</a> 
+                      <div><i class="fas fa-phone"></i>+370 620 20870</div>
+                    </li>
+                    <li><a href="">„Darboholikų<span class="smile">&#9786;</span> muzikinis ugdomasis sveikatinimas”</a> 
+                      <div><i class="fas fa-phone"></i>+370 659 33041</div>
+                    </li>
+                    <li><a href="">Aktyvioji muzikos terapija kūdikiams ir vaikams, turintiems raidos sutrikimų</a> 
+                      <div><i class="fas fa-phone"></i>+370  640 40510</div>
+                    </li>
+                    <li><a href="">Muzikos terapija specialiųjų poreikių turintiems vaikams</a> 
+                      <div><i class="fas fa-phone"></i>+370  670 83240</div>
+                    </li>
+                    <li><a href="">Praktinių mokymų ciklas „Padėk sau, pažindamas save”</a> 
+                      <div><i class="fas fa-phone"></i>+370 614 14063</div>
+                    </li>
+                    <li><a href="">„Prisilietimo galia”. Glostomasis masažas kūdikiams „Drugelio sparnas”</a> 
+                      <div><i class="fas fa-phone"></i>+370 614 14063</div>
+                    </li>
+                    <li><a href="">Paskaitų ciklas paaugliams „Apie suaugusių santykius atvirai”</a> 
+                      <div><i class="fas fa-phone"></i>+370 614 14063</div>
+                    </li>
+                    <li><a href="">Individualios psichologo konsultacijos bei paskaitos-seminarai</a> 
+                      <div><i class="fas fa-phone"></i>+370 600 41125</div>
+                    </li>
                   </ul>
 
+                  <ul class="address-block">
+                    <li>
+                      <i class="fas fa-map-marker-alt"></i>Vytenio g. 50, 14P korpusas, Vilnius
+                    </li>
+                    <li>
+                      <i class="far fa-envelope"></i>sveikutis@sveikutis.lt
+                    </li>
+                  </ul>
                   <ul class="social-icons">
                     <li>
-                      <a href="https://www.facebook.com/sveikutis/"><i class="fa fa-facebook"></i></a>
+                      <a href="https://www.facebook.com/sveikutis/"><i class="fab fa-facebook-square"></i></a>
                     </li>
                   </ul>
                 </div>
@@ -208,9 +269,18 @@ function test_input($data) {
               <div class="col-md-6 col-sm-12">
                 <div class="block">
                   <h2>Mes esame čia</h2>
-                    <div class="google-map">
-                      <div id="map"></div>
-                    </div>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2307.2368025872497!2d25.264724716031363!3d54.67026018242173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd946f06fd7943%3A0x59c087dbd86d5f5d!2sVytenio+g.+50%2C+Vilnius+03202!5e0!3m2!1sen!2slt!4v1523471818089" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>  
+                    <div id="find-us"><strong>„Sveikutį" rasite:</strong></div>
+                    <ul class="find-us-description">
+                      <li>važiuojant iš miesto centro į Vilniaus oro uostą, jūs pravažiuojate „Spartos" sankryžą, o kita sankryža yra Švitrigailos ir Panerių</li>
+                      <li>Jūsų dešinėje bus „IRIS" parduotuvė, tad ir sukate į dešinę pusę</li>
+                      <li>už ~ 25 metrų bus įvažiavimas prie „IRIS", o priešais – įvažiavimas gylyn į kiemą (matyti užrašas „Metalo gaminiai")</li>
+                      <li>kai įvažiuosite gylyn (~25 metrus) iš karto sukite į kairę (pamatysite žalią renovuotą pastatą, kuris priklauso įmonei „BALTVITA"). Ant jo parašyta „14 P"</li>
+                      <li>pasistatykite automobilį kur patogu, nes parkavimas nemokamas</li>
+                      <li>prie „14 P" pažymėto žalio pastato durų spauskite 402 mygtuką su užrašu „Sveikutis”</li>
+                      <li>dabar erdviais laiptas pakilkite į ketvirtą aukštą (nemokama mankšta prieš užsiėmimus) ir, žvilgtelėję į dešinę pusę, pamatysite 402 kabinetą, o ten – </li>
+                      <li>mes Jūsų laukiame<span class="smile">&#9786;</span></li>
+                    </ul>
                 </div>
               </div>
             </div>
@@ -227,15 +297,16 @@ function test_input($data) {
                 <li><a class="page-scroll" href="contact.php">Kontaktai</a></li>
                   </ul>
                 </div>
-            <p>Copyright &copy; Crafted by <a href="https://dcrazed.com/">Dcrazed</a>
-            <br>Copyright &copy; Sveikutis
-            <br>Copyright &copy; Rūta Čigriejūtė, piešiniai</p>            
+                <p>Copyright &copy; Crafted by <a href="https://dcrazed.com/">Dcrazed</a>
+                <br>Copyright &copy; Sveikutis
+                <br>Copyright &copy; Rūta Čigriejūtė, piešiniai</p>            
               </div>
             </div>
           </div>
         </footer>
         
         
-        
+        <script src="js/main.js"></script>
+
       </body>
     </html>

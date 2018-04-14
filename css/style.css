@@ -1,7 +1,7 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+/* @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
 @import url(http://fonts.googleapis.com/css?family=Volkhov:400italic);
-@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400italic);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400italic); */
 /* var text-decoration */
 /*--
 	Common Css
@@ -33,7 +33,6 @@ p {
 ul {
   padding: 0;
   margin: 0;
-  list-style: none;
 }
 a,
 a:active,
@@ -155,17 +154,39 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #7B7B7B;
   padding-top: 20px;
 }
-#intro .block img {
+#intro .intro-about-img {
+  width: 40%; 
+}
+#intro .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+  margin-bottom: 10px;
+}
+#intro .song-book {
+  float: left;
+  padding-top: 20px;
+  margin-right: 20px;
+}
+#intro .family-book {
+  margin-bottom: 10px;
+}
+#intro .img-decoration {
   padding-left: 40px;
   width: 100%;
 }
 #intro .section-title {
   margin-bottom: 0px;
 }
+#contact-form #find-us {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
 #intro .section-title p {
   padding-top: 20px;
 }
-#intro .block ul li {
+#intro .block ul li, #contact-box .lectures-contact {
   color: #7B7B7B;
   list-style-type: square;
   list-style-position: outside;
@@ -173,9 +194,190 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 15px;
   line-height: 28px;
 }
+#intro .lectures li {
+  font-size: 17px;
+}
+#intro .smile {
+  font-size: 17px;
+}
 /*--
 	service Start 
 --*/
+/* Schedule */
+.description-schedule table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+.description-schedule table, .description-schedule th, .description-schedule td {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.description-schedule .week-day {
+  width: 18%;
+}
+.description-schedule tbody tr {
+  height: 1px;
+}
+.description-schedule tbody th {
+  color: #000;
+  padding: 8px;
+  text-align: center;
+}
+.description-schedule tbody td {
+  padding: 8px;
+  color: #000;
+  font-weight: 700;
+  height: inherit;
+}
+.description-schedule .not-one {
+  padding: 0;
+}
+.description-schedule tbody div {
+  padding: 8px;
+}
+.description-schedule thead th {
+  text-align: center;
+  color: #000;
+  padding: 8px;
+}
+.description-schedule tbody td, .description-schedule tbody tr {
+  text-align: left;
+}
+.pregnant-piano .pregnant, .pregnant-piano .piano, 
+.piano-vocal .piano, .piano-vocal .vocal, 
+.piano-workers .piano, .piano-workers .workers  {
+  height: 50%;
+}
+
+/* Schedule colors */
+.mazutukai-songs {
+  background-color: rgba(255, 192, 203, 0.5);
+}
+.mazutukai-songs:hover {
+  background-color: rgba(255, 192, 203, 1);  
+  cursor: pointer;
+}
+
+.taputukai-songs {
+  background-color: rgba(0, 184, 255, 0.5);
+}
+.taputukai-songs:hover {
+  background-color: rgba(0, 184, 255, 1);
+  cursor: pointer;
+}
+
+.psychology {
+  background-color: rgba(32, 250, 68, 0.5);
+}
+.psychology:hover {
+  background-color: rgba(32, 250, 68, 1);
+  cursor: pointer;
+}
+
+.vocal {
+  background-color: rgba(255, 165, 0, 0.5);
+}
+.vocal:hover {
+  background-color: rgba(255, 165, 0, 1);
+  cursor: pointer;
+}
+
+.piano {
+  background-color: rgba(233, 233, 125, 0.5);
+}
+.piano:hover {
+  background-color: rgba(233, 233, 125, 1);
+  cursor: pointer;
+}
+
+.therapy-baby {
+  background-color: rgba(9, 230, 182, 0.4);
+}
+.therapy-baby:hover {
+  background-color: rgba(9, 230, 182, 1);
+  cursor: pointer;
+}
+
+.therapy-child {
+  background-color: rgba(210, 80, 229, 0.5);
+}
+.therapy-child:hover {
+  background-color: rgba(210, 80, 229, 1);
+  cursor: pointer;
+}
+
+.pregnant {
+  background-color: rgba(237, 66, 85, 0.5);
+}
+.pregnant:hover {
+  background-color: rgba(237, 66, 85, 1);
+  cursor: pointer;
+}
+
+.orff-baby {
+  background-color: rgba(216, 136, 109, 0.5);
+}
+.orff-baby:hover {
+  background-color: rgba(216, 136, 109, 1);
+  cursor: pointer;
+}
+
+.orff-child {
+  background-color: rgba(67, 184, 106, 0.5);
+}
+.orff-child:hover {
+  background-color: rgba(67, 184, 106, 1);
+}
+
+.workers {
+  background-color: rgba(103, 112, 218, 0.5);
+}
+.workers:hover {
+  background-color: rgba(103, 112, 218, 0.9);
+  cursor: pointer;
+}
+
+.help-yourself {
+  background-color: rgba(151, 129, 181, 0.5);
+}
+.help-yourself:hover {
+  background-color: rgba(151, 129, 181, 1);
+  cursor: pointer;
+}
+
+/* end of schedule */
+
+/* Modals */
+.description-modal table {
+  /* table-layout: fixed; */
+  /* width: 100%; */
+  border-collapse: collapse;
+}
+.description-modal table, .description-modal th, .description-modal td {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.description-modal tbody th {
+  color: #000;
+  padding: 8px;
+  text-align: left;
+  vertical-align: top;
+}
+.description-modal tbody td {
+  color: #000;
+  text-align: left;
+  padding: 8px;
+}
+.description-modal .margin-top {
+  margin-top: 4px;
+}
+.description-modal ul {
+  list-style: square;
+  list-style-position: inside;
+}
+.description-modal .fa-phone, .description-modal .fa-envelope {
+  margin-right: 5px;
+}
+/* end of modals */
 #service {
   text-align: center;
   padding: 90px 0;
@@ -780,6 +982,12 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	wrapper-contact Start 
 --*/
+.address-block {
+  margin-top: 40px;
+}
+.address-block {
+  list-style: none;
+}
 .address-block li {
   margin-bottom: 20px;
 }
@@ -788,12 +996,16 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 20px;
   width: 20px;
 }
-.social-icons {
-  margin-top: 40px;
+.address-block .fa-map-marker-alt {
+  font-size: 20px;
+  margin-right: 21px;
+}
+.address-block .fa-envelope {
+  font-size: 20px;
+  margin-right: 15px;
 }
 .social-icons li {
   display: inline-block;
-  margin: 0 6px;
 }
 .social-icons a {
   display: inline-block;
@@ -802,6 +1014,12 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #2C2C2C;
   margin-right: 25px;
   font-size: 25px;
+}
+.social-icons .fa-facebook-square {
+  font-size: 50px;
+}
+.lectures-contact .fa-phone {
+  margin: 0 5px;
 }
 .google-map {
   position: relative;
@@ -828,6 +1046,22 @@ font header .navbar-default .navbar-nav li a:hover {
 #contact-box .block p {
   color: #5C5C5C;
   display: block;
+}
+#contact-box .lectures-contact {
+  font-size: 14px;
+  margin-left: 20px;
+}
+#contact-form iframe {
+  width: 100%;
+}
+#contact-form .find-us-description {
+  font-size: 14px;
+  margin-left: 20px;
+  color: #7B7B7B;
+  list-style-type: square;
+  list-style-position: outside;
+  font-size: 15px;
+  line-height: 28px;
 }
 /*--
 	features-contact Start 

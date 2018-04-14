@@ -28,23 +28,12 @@ $(document).ready(function(){
 	});
 
 
-	// google map
-//		var map;
-//		function initMap() {
-//		  map = new google.maps.Map(document.getElementById('map'), {
-//		    center: {lat: 54.660509, lng: 25.274903},
-//		    zoom: 8
-//		  });
-//		}
-
-
 	// Counter
-
 	$('.counter').counterUp({
         delay: 10,
         time: 1000
-    });
-
+	});
+	
 
 });
 

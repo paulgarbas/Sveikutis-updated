@@ -65,8 +65,8 @@ function test_input($data) {
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>SVEIKUTIS - Susisiekite su mumis!</title>
-    <meta name="description" content="Parašykite, paskambinkite ar atvykite į SVEIKUTĮ, kur inovatyviais metodais grindžiama originali programa muzikuoja būsimi tėvai, kūdikiai ir vaikai iki 3 metų.">
+    <title>Sveikutis - Susisiekite su mumis!</title>
+    <meta name="description" content='Parašykite, paskambinkite ar atvykite į „Sveikutį”, kur inovatyviais metodais grindžiama originali programa muzikuoja būsimi tėvai, kūdikiai ir vaikai iki 3 metų.'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     
@@ -99,14 +99,8 @@ function test_input($data) {
     <script src="js/min/waypoints.min.js"></script>
     <script src="js/jquery.counterup.js"></script>
 
-    <!-- Google Map -->
-    <!-- <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script src="js/google-map-init.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCiyL_0jSw3-vc0atLtKCyAD0wsMccEgw&callback=initMap"
-  type="text/javascript"></script> -->
-
-
   </head>
+  
   <body>
     <!-- Header Start -->
     <header>
@@ -133,12 +127,11 @@ function test_input($data) {
                   <ul class="nav navbar-nav navbar-right">
                     <li><a href="index.html">Pradžia</a></li>
                     <li><a class="page-scroll" href="index.html#intro">Apie mus</a></li>
-                    <li><a class="page-scroll" href="index.html#feature">Mokytoja</a></li>
+                    <li><a href="classes.html">Veiklos</a></li>
+                    <li><a class="page-scroll" href="index.html#feature">Mūsų komanda</a></li>
                     <li><a class="page-scroll" href="index.html#service">Tvarkaraštis</a></li>                    
-<!--                    <li><a href="work.html">Work</a></li> -->
                     <li><a class="page-scroll" href="work.html">Šeimos knyga</a></li>
                     <li><a class="page-scroll" href="index.html#testimonial">Atsiliepimai</a></li>                    
-                    <li><a href="contact.html">Kontaktai</a></li>
                 </ul>
                 </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
@@ -154,7 +147,7 @@ function test_input($data) {
             <div class="row">
               <div class="col-md-12">
                 <div class="block">
-                  <h1>SUSISIEKITE SU MUMIS</h1>
+                  <h1>Susisiekite su mumis</h1>
                 </div>
               </div>
             </div>
@@ -186,7 +179,7 @@ function test_input($data) {
                     <div class="form-group-2">
                       <textarea class="form-control" rows="3" name="comment" placeholder="<?php echo $commentErr;?>"></textarea>
                     </div>
-                    <button class="btn btn-default" type="submit">Siųsti</button>
+                    <button class="btn btn-default send" type="submit">Siųsti</button>
                 </div>
               </div>
             </form>
@@ -195,61 +188,61 @@ function test_input($data) {
               <div class="col-md-6 col-sm-12">
                 <div class="block">
                   <h2>Susisiekite su mumis</h2>
-                  <!-- <ul class="address-block">
-                    <li>
-                      <i class="fa fa-map-marker"></i>Vytenio g. 50, 14B korpusas, Vilnius
-                    </li>
-                    <li>
-                      <i class="fa fa-envelope-o"></i>sveikutis@sveikutis.lt
-                    </li>
-                    <li>
-                      <i class="fa fa-phone"></i>+370 659 33041
-                    </li>
-                  </ul> -->
                   <ul class="lectures-contact">
-                    <li><a href="">Nėščiųjų muzikinis ugdomasis sveikatinimas</a> 
+                    <li>
+                      <a href="all-classes/pregnant.html">Nėščiųjų muzikinis ugdomasis sveikatinimas</a> 
                       <div><i class="fas fa-phone"></i>+370 659 33041</div>
                     </li>
-                    <li><a href="">„Mažutukų dainos”. Ankstyvasis muzikinis ugdomasis sveikatinimas</a> 
+                    <li>
+                      <a href="all-classes/mazutukai.html">„Mažutukų dainos”. Ankstyvasis muzikinis ugdomasis sveikatinimas</a> 
                       <div><i class="fas fa-phone"></i>+370 659 33041, +370 620 20870</div>
                     </li>
-                    <li><a href="">„Taputukų dainos”. Ankstyvasis muzikinis ugdomasis sveikatinimas</a> 
+                    <li>
+                      <a href="all-classes/taputukai.html">„Taputukų dainos”. Ankstyvasis muzikinis ugdomasis sveikatinimas</a> 
                       <div><i class="fas fa-phone"></i>+370 659 33041, +370 620 20870</div>
                     </li>
-                    <li><a href="">Ansamblinis muzikavimas Karlo Orfo instrumentariumu 4-6 metų vaikams</a> 
+                    <li>
+                      <a href="all-classes/orff.html">Ansamblinis muzikavimas Karlo Orfo instrumentariumu vaikams</a> 
                       <div><i class="fas fa-phone"></i>+370 620 20870</div>
                     </li>
-                    <li><a href="">Ansamblinis muzikavimas Karlo Orfo instrumentariumu 6-8 metų vaikams</a> 
-                      <div><i class="fas fa-phone"></i>+370 620 20870</div>
-                    </li>
-                    <li><a href="">Pianino pamokos suaugusiems</a> 
+                    <li>
+                      <a href="all-classes/piano.html">Pianino pamokos suaugusiems</a> 
                       <div><i class="fas fa-phone"></i>+370 603 81702</div>
                     </li>
-                    <li><a href="">Vokalo pamokos suaugusiems ir vaikams</a> 
+                    <li>
+                      <a href="all-classes/vocal.html">Vokalo pamokos suaugusiems ir vaikams</a> 
                       <div><i class="fas fa-phone"></i>+370 620 20870</div>
                     </li>
-                    <li><a href="">„Darboholikų<span class="smile">&#9786;</span> muzikinis ugdomasis sveikatinimas”</a> 
+                    <li>
+                      <a href="all-classes/workers.html">„Darboholikų<span class="smile">&#9786;</span> muzikinis ugdomasis sveikatinimas”</a> 
                       <div><i class="fas fa-phone"></i>+370 659 33041</div>
                     </li>
-                    <li><a href="">Aktyvioji muzikos terapija kūdikiams ir vaikams, turintiems raidos sutrikimų</a> 
+                    <li>
+                      <a href="all-classes/music-therapy-babies.html">Aktyvioji muzikos terapija kūdikiams ir vaikams, turintiems raidos sutrikimų</a> 
                       <div><i class="fas fa-phone"></i>+370  640 40510</div>
                     </li>
-                    <li><a href="">Muzikos terapija specialiųjų poreikių turintiems vaikams</a> 
+                    <li>
+                      <a href="all-classes/music-therapy-children.html">Muzikos terapija specialiųjų poreikių turintiems vaikams</a> 
                       <div><i class="fas fa-phone"></i>+370  670 83240</div>
                     </li>
-                    <li><a href="">Praktinių mokymų ciklas „Padėk sau, pažindamas save”</a> 
+                    <li>
+                      <a href="all-classes/help-yourself.html">Praktinių mokymų ciklas „Padėk sau, pažindamas save”</a> 
                       <div><i class="fas fa-phone"></i>+370 614 14063</div>
                     </li>
-                    <li><a href="">„Prisilietimo galia”. Glostomasis masažas kūdikiams „Drugelio sparnas”</a> 
+                    <li>
+                      <a href="all-classes/babies-massage.html">„Prisilietimo galia”. Glostomasis masažas kūdikiams „Drugelio sparnas”</a> 
                       <div><i class="fas fa-phone"></i>+370 614 14063</div>
                     </li>
-                    <li><a href="">Paskaitų ciklas paaugliams „Apie suaugusių santykius atvirai”</a> 
+                    <li>
+                      <a href="all-classes/adult-relationship.html">Paskaitų ciklas paaugliams „Apie suaugusių santykius atvirai”</a> 
                       <div><i class="fas fa-phone"></i>+370 614 14063</div>
                     </li>
-                    <li><a href="">Individualios psichologo konsultacijos bei paskaitos-seminarai</a> 
+                    <li>
+                      <a href="all-classes/psychology.html">Individualios psichologo konsultacijos bei paskaitos-seminarai</a> 
                       <div><i class="fas fa-phone"></i>+370 600 41125</div>
                     </li>
                   </ul>
+
 
                   <ul class="address-block">
                     <li>
@@ -297,9 +290,12 @@ function test_input($data) {
                 <li><a class="page-scroll" href="contact.php">Kontaktai</a></li>
                   </ul>
                 </div>
-                <p>Copyright &copy; Crafted by <a href="https://dcrazed.com/">Dcrazed</a>
-                <br>Copyright &copy; Sveikutis
-                <br>Copyright &copy; Rūta Čigriejūtė, piešiniai</p>            
+                <p>
+                  Copyright &copy; Crafted by <a href="https://dcrazed.com/">Dcrazed</a>
+                  <br>Copyright &copy; Updated by <a href="https://www.linkedin.com/in/paulius-garbasauskas">Paulius Garbašauskas</a>
+                  <br>Copyright &copy; Sveikutis
+                  <br>Copyright &copy; Rūta Čigriejūtė, piešiniai
+              </p>            
               </div>
             </div>
           </div>

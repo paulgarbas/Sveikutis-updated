@@ -206,7 +206,7 @@ function test_input($data) {
                       <div><i class="fas fa-phone"></i>+370 620 20870</div>
                     </li>
                     <li>
-                      <a href="all-classes/piano.html">Pianino pamokos suaugusiems</a> 
+                      <a href="all-classes/piano.html">Fortepijono pamokos suaugusiems</a> 
                       <div><i class="fas fa-phone"></i>+370 603 81702</div>
                     </li>
                     <li>
@@ -214,7 +214,7 @@ function test_input($data) {
                       <div><i class="fas fa-phone"></i>+370 620 20870</div>
                     </li>
                     <li>
-                      <a href="all-classes/workers.html">„Darboholikų<span class="smile">&#9786;</span> muzikinis ugdomasis sveikatinimas”</a> 
+                      <a href="all-classes/workers.html">„Darboholikų” muzikinis ugdomasis sveikatinimas</a> 
                       <div><i class="fas fa-phone"></i>+370 659 33041</div>
                     </li>
                     <li>
@@ -246,7 +246,7 @@ function test_input($data) {
 
                   <ul class="address-block">
                     <li>
-                      <i class="fas fa-map-marker-alt"></i>Vytenio g. 50, 14P korpusas, Vilnius
+                      <i class="fas fa-map-marker-alt"></i>Vytenio g. 50/14P korpusas, Vilnius
                     </li>
                     <li>
                       <i class="far fa-envelope"></i>sveikutis@sveikutis.lt

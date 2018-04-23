@@ -1,7 +1,7 @@
-/* @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
 @import url(http://fonts.googleapis.com/css?family=Volkhov:400italic);
-@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400italic); */
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400italic);
 /* var text-decoration */
 /*--
 	Common Css
@@ -16,7 +16,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 h2 {
   font-size: 30px;
@@ -41,8 +41,12 @@ a:active {
   text-decoration: none !important;
 }
 i {
-  font-family: 'Playfair Display', serif;
+  /* font-family: 'Playfair Display', serif; */
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-style: italic;
+}
+b {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .section-title {
   margin-bottom: 70px;
@@ -137,7 +141,7 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #313131;
 }
 #slider .block h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 100;
   font-size: 45px;
   line-height: 60px;
@@ -148,7 +152,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #slider .block p {
   font-size: 23px;
   line-height: 40px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
 }
@@ -172,8 +176,9 @@ font header .navbar-default .navbar-nav li a:hover {
   margin: 0;
 }
 #intro .block p {
-  color: #7B7B7B;
+  color: rgb(51,51,51);
   padding-top: 20px;
+  text-align: justify;
 }
 #intro .intro-about-img {
   width: 195px;
@@ -215,9 +220,10 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #intro .section-title p {
   padding-top: 30px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 #intro .block ul li, #contact-box .lectures-contact {
-  color: #7B7B7B;
+  color: rgb(51,51,51);
   list-style-type: square;
   list-style-position: outside;
   margin-left: 30px;
@@ -226,6 +232,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #intro .lectures li {
   font-size: 17px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 /*--
 	service Start 
@@ -240,13 +247,14 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #333;
 }
 .all-classes {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   border: 1px solid #000;
   background-color: #f1e5ec;
   text-align: center;
   margin-bottom: 30px;
   padding: 20px;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 600;
   box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px 1px;
   transition: 0.5s;
 }
@@ -286,6 +294,11 @@ font header .navbar-default .navbar-nav li a:hover {
 .description-schedule tbody tr {
   height: 1px;
 }
+@-moz-document url-prefix() { 
+  .description-schedule tbody tr {
+      height: 100%; 
+  }
+}
 .description-schedule tbody th {
   color: #000;
   padding: 8px;
@@ -294,7 +307,7 @@ font header .navbar-default .navbar-nav li a:hover {
 .description-schedule tbody td {
   padding: 8px;
   color: #000;
-  font-weight: 700;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   height: inherit;
 }
 .description-schedule .not-one {
@@ -316,7 +329,6 @@ font header .navbar-default .navbar-nav li a:hover {
 .piano-workers .piano, .piano-workers .workers  {
   height: 50%;
 }
-
 /* Schedule colors */
 .mazutukai-songs {
   background-color: rgba(255, 192, 203, 0.5);
@@ -509,6 +521,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #call-to-action p {
   font-size: 16px;
   line-height: 1.6;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 #call-to-action .btn-call-to-action {
   padding: 15px 35px;
@@ -629,8 +642,11 @@ font header .navbar-default .navbar-nav li a:hover {
 .about-lecturer h2 {
   margin: 40px 0;
 }
-.about-lecturer .trademark {
-  
+.about-lecturer ul {
+  text-align: justify;
+}
+.about-lecturer p, .about-lecturer blockquote {
+  text-align: justify;
 }
 .about-lecturer .margin-top-p {
   margin-top: 10px;
@@ -705,6 +721,7 @@ font header .navbar-default .navbar-nav li a:hover {
   line-height: 28px;
   font-weight: 300;
   padding-bottom: 20px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 #testimonial .testimonial-carousel .user img {
   padding-bottom: 0px;
@@ -792,6 +809,7 @@ font header .navbar-default .navbar-nav li a:hover {
   font-weight: 300;
   letter-spacing: 1px;
   word-spacing: 3px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 /*--
 	portfolio-work Start 
@@ -1054,7 +1072,7 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
 }
 .requisite-family-book-paragraph {
-  text-align: left;
+  text-align: justify;
 }
 #audio-intro {
   padding: 100px 0;
@@ -1065,7 +1083,7 @@ font header .navbar-default .navbar-nav li a:hover {
   margin: 0;
 }
 #audio-intro .block p {
-  color: #7B7B7B;
+  color: rgb(51,51,51);
   padding-top: 20px;
 }
 #audio-intro .block img {
@@ -1077,6 +1095,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #audio-intro .section-title p {
   padding-top: 20px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 /*---------------------------------------------
 					Work Close 
@@ -1224,7 +1243,7 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
 }
 #contact-box .block h2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 300;
   color: #000;
   font-size: 28px;
@@ -1244,7 +1263,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #contact-form .find-us-description {
   font-size: 16px;
   margin-left: 20px;
-  color: #7B7B7B;
+  color: rgb(51,51,51);
   list-style-type: square;
   list-style-position: outside;
   font-size: 16px;
@@ -1385,11 +1404,6 @@ footer .footer-manu ul li a:hover {
     text-align: center;
   }
 }
-
-@media only screen and (max-width: 360px) {
-  .description-modal tbody th, .description-modal tbody td,
-  .one-class tbody th, .one-class tbody td {
-    word-break: break-all;
-  }
-}
 /* end of media queries */
+
+

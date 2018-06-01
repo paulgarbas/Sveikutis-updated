@@ -63,6 +63,15 @@ function test_input($data) {
 <!DOCTYPE html>
 <html lang="lt" class="no-js">
   <head>
+     <!-- Global Site Tag (gtag.js) - Google Analytics -->
+     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118109330-1"></script>
+     <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-118109330-1');
+    </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Sveikutis - Susisiekite su mumis!</title>
@@ -237,10 +246,10 @@ function test_input($data) {
                       <a href="all-classes/adult-relationship.html">Paskaitų ciklas paaugliams „Apie suaugusių santykius atvirai”</a> 
                       <div><i class="fas fa-phone"></i>+370 614 14063</div>
                     </li>
-                    <li>
+                    <!-- <li>
                       <a href="all-classes/psychology.html">Individualios psichologo konsultacijos bei paskaitos-seminarai</a> 
                       <div><i class="fas fa-phone"></i>+370 600 41125</div>
-                    </li>
+                    </li> -->
                   </ul>
 
 

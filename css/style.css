@@ -276,6 +276,20 @@ font header .navbar-default .navbar-nav li a:hover {
 .taputukai-mobile {
   display: none;
 }
+.psychology-group-description {
+  text-align: justify;
+}
+.psychology-group-description h3 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.psychology-group-description ol {
+  margin-bottom: 40px;
+  font-size: 16px;
+  line-height: 28px;
+  padding-left: 20px;
+}
 /* end of all casses */
 
 /* Schedule */

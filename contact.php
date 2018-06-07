@@ -75,7 +75,7 @@ function test_input($data) {
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Sveikutis - Susisiekite su mumis!</title>
-    <meta name="description" content='Parašykite, paskambinkite ar atvykite į „Sveikutį”, kur inovatyviais metodais grindžiama originali programa muzikuoja būsimi tėvai, kūdikiai ir vaikai iki 3 metų.'>
+    <meta name="description" content='Parašykite, paskambinkite ar atvykite į „Sveikutį".'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     
@@ -246,10 +246,10 @@ function test_input($data) {
                       <a href="all-classes/adult-relationship.html">Paskaitų ciklas paaugliams „Apie suaugusių santykius atvirai”</a> 
                       <div><i class="fas fa-phone"></i>+370 614 14063</div>
                     </li>
-                    <!-- <li>
-                      <a href="all-classes/psychology.html">Individualios psichologo konsultacijos bei paskaitos-seminarai</a> 
-                      <div><i class="fas fa-phone"></i>+370 600 41125</div>
-                    </li> -->
+                    <li>
+                      <a href="all-classes/psychology-group.html">Grupinės teminės paskaitos aktualiomis psichologinėmis temomis</a> 
+                      <div><i class="fas fa-phone"></i>+370 601 00538</div>
+                    </li>
                   </ul>
 
 

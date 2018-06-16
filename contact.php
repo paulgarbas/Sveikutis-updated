@@ -255,10 +255,10 @@ function test_input($data) {
 
                   <ul class="address-block">
                     <li>
-                      <i class="fas fa-map-marker-alt"></i>Vytenio g. 50/14P korpusas, Vilnius
+                      <i class="fas fa-map-marker-alt"></i>Panerių g. 37/14P korpusas, Vilnius
                     </li>
                     <li>
-                      <i class="far fa-envelope"></i>sveikutis@sveikutis.lt
+                      <i class="far fa-envelope"></i>info@sveikutis.lt
                     </li>
                   </ul>
                   <ul class="social-icons">
@@ -271,18 +271,18 @@ function test_input($data) {
               <div class="col-md-6 col-sm-12">
                 <div class="block">
                   <h2>Mes esame čia</h2>
-                  <iframe class="iframe-map-find-us" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2307.2368025872497!2d25.264724716031363!3d54.67026018242173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd946f06fd7943%3A0x59c087dbd86d5f5d!2sVytenio+g.+50%2C+Vilnius+03202!5e0!3m2!1sen!2slt!4v1523471818089" width="600" height="450" style="border:0" allowfullscreen></iframe>  
-                    <div id="find-us"><strong>„Sveikutį" rasite:</strong></div>
-                    <ul class="find-us-description">
-                      <li>važiuojant iš miesto centro į Vilniaus oro uostą, jūs pravažiuojate „Spartos" sankryžą, o kita sankryža yra Švitrigailos ir Panerių</li>
-                      <li>Jūsų dešinėje bus „IRIS" parduotuvė, tad ir sukate į dešinę pusę</li>
-                      <li>už ~ 25 metrų bus įvažiavimas prie „IRIS", o priešais – įvažiavimas gylyn į kiemą (matyti užrašas „Metalo gaminiai")</li>
-                      <li>kai įvažiuosite gylyn (~25 metrus) iš karto sukite į kairę (pamatysite žalią renovuotą pastatą, kuris priklauso įmonei „BALTVITA"). Ant jo parašyta „14 P"</li>
-                      <li>pasistatykite automobilį kur patogu, nes parkavimas nemokamas</li>
-                      <li>prie „14 P" pažymėto žalio pastato durų spauskite 402 mygtuką su užrašu „Sveikutis”</li>
-                      <li>dabar erdviais laiptas pakilkite į ketvirtą aukštą (nemokama mankšta prieš užsiėmimus) ir, žvilgtelėję į dešinę pusę, pamatysite 402 kabinetą, o ten – </li>
-                      <li>mes Jūsų laukiame<span class="smile">&#9786;</span></li>
-                    </ul>
+                  <iframe class="iframe-map-find-us" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2307.29497271027!2d25.26938959541112!3d54.66923625644569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd946f499e767b%3A0xad65333c33739b4e!2s14P%2C+Paneri%C5%B3+g.+37%2C+Vilnius+03209!5e0!3m2!1slt!2slt!4v1529152861844" width="600" height="450" style="border:0" allowfullscreen></iframe>
+                  <div id="find-us"><strong>„Sveikutį" rasite:</strong></div>
+                  <ul class="find-us-description">
+                    <li>važiuojant iš miesto centro į Vilniaus oro uostą, jūs pravažiuojate „Spartos" sankryžą, o kita sankryža yra Švitrigailos ir Panerių</li>
+                    <li>Jūsų dešinėje bus „IRIS" parduotuvė, tad ir sukate į dešinę pusę</li>
+                    <li>už ~ 25 metrų bus įvažiavimas prie „IRIS", o priešais – įvažiavimas gylyn į kiemą (matyti užrašas „Metalo gaminiai")</li>
+                    <li>kai įvažiuosite gylyn (~25 metrus) iš karto sukite į kairę (pamatysite žalią renovuotą pastatą, kuris priklauso įmonei „BALTVITA"). Ant jo parašyta „14 P"</li>
+                    <li>pasistatykite automobilį kur patogu, nes parkavimas nemokamas</li>
+                    <li>prie „14 P" pažymėto žalio pastato durų spauskite 402 mygtuką su užrašu „Sveikutis”</li>
+                    <li>dabar erdviais laiptas pakilkite į ketvirtą aukštą (nemokama mankšta prieš užsiėmimus) ir, žvilgtelėję į dešinę pusę, pamatysite 402 kabinetą, o ten – </li>
+                    <li>mes Jūsų laukiame<span class="smile">&#9786;</span></li>
+                  </ul>
                 </div>
               </div>
             </div>
